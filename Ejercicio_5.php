@@ -23,18 +23,7 @@
      echo"<br>";
  }
 
- // agregando el while
-
- $arrayLength = count($familia);
-
- $i=0;
-
-
- while ($i < $arrayLength)
-        {
-            echo $familia[$i] ."<br />";
-            $i++;
-        }
+ 
 
 ?>
 
