@@ -33,10 +33,9 @@
    print_r($miArregloReves); //Este nuevo arreglo contiene los elementos en forma inversa
 
    
-    echo "<p> El contenido de una variable tipo booleano verdadero:  y variable boolena falsa</p>";
-
     
-    echo "<p>Este es un nombre de variable extraido de una cadena </p>";
+    
+   
 ?>
 
 </body>
