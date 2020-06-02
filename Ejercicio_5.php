@@ -14,15 +14,23 @@
  {
      echo "<p>$i</p>";
  }
-
  echo "<p>Finaliza ciclo for</p>";
  $familia = array("Maria","Ana","Jose","Pedro");
+// agregando while
+ $arrayLength = count($familia);
+        
+        $i = 0;
+        while ($i < $arrayLength)
+        {
+            echo $familia[$i] ."<br />";
+            $i++;
+        }
 
- for ($i=0;$i<=sizeof($familia);$i++){
+ /*for ($i=0;$i<=sizeof($familia);$i++){
      echo "<h2> $familia[$i] numero de elemento $i</h2>";
      echo"<br>";
  }
-
+*/
  
 
 ?>
