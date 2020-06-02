@@ -26,13 +26,13 @@
             $i++;
         }
 
-        echo "<p>Finaliza ciclo for</p>";
+        echo "<p>muestra del ciclo while</p>";
 
- /*for ($i=0;$i<=sizeof($familia);$i++){
+ for ($i=0;$i<=sizeof($familia);$i++){
      echo "<h2> $familia[$i] numero de elemento $i</h2>";
      echo"<br>";
  }
-*/
+
  
 
 ?>
