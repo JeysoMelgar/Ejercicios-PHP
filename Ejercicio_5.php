@@ -19,7 +19,7 @@
  $familia = array("Maria","Ana","Jose","Pedro");
 
  for ($i=0;$i<=sizeof($familia);$i++){
-     echo "<h2 $familia[$i]> numero de elemento $i</h2>";
+     echo "<h2> $familia[$i] numero de elemento $i</h2>";
      echo"<br>";
  }
 
