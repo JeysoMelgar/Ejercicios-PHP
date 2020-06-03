@@ -15,7 +15,7 @@ echo"<h1>".$_GET['nombre']."</h1>";
 echo"<h2>".$_GET['apellido']."</h2>";
 
 if(is_numeric($_GET['edad']) && $_GET['edad']>=1){
-echo "<h3>Bienvenido ".$_GET['nombre']." ".$_GET['apellido']."</h3>";
+echo "<h3>Bienvenido(a)".$_GET['nombre']." ".$_GET['apellido']."</h3>";
 }
 else{
     echo "<h3>No es una edad valida</h3>";
